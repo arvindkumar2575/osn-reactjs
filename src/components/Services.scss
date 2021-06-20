@@ -1,0 +1,11 @@
+.services {
+	.thumbnails-cards {
+		display: flex;
+		padding: 10px 25px;
+		flex-wrap: wrap;
+		row-gap: 20px;
+		column-gap: 20px;
+		justify-content: space-around;
+		// overflow-x: auto;
+	}
+}

@@ -1,0 +1,23 @@
+.breadcrumbs {
+	margin: 5px 0;
+	.breadcrumb {
+		margin: 0;
+		.breadcrumb-item {
+			font-size: 12px;
+
+			&:first-child {
+				padding-left: 10px;
+				&:before {
+					content: none;
+				}
+			}
+			&::before {
+				content: "\2771";
+			}
+			a {
+				font-size: 12px;
+				text-decoration: none;
+			}
+		}
+	}
+}
