@@ -1,6 +1,5 @@
 import React from "react";
 import "./HeadCarousel.scss";
-import { Link } from "react-router-dom";
 
 function HeadCarousel() {
 	return (
@@ -35,21 +34,21 @@ function HeadCarousel() {
 				<div className="carousel-inner">
 					<div className="carousel-item active" data-bs-interval="4000">
 						<img
-							src="https://image3.mouthshut.com/images/imagesp/925814651s.jpg"
+							src="images/img-1.jpg"
+							className="d-block w-100"
+							alt="img-1"
+						/>
+					</div>
+					<div className="carousel-item" data-bs-interval="4000">
+						<img
+							src="images/img-2.jpg"
 							className="d-block w-100"
 							alt="..."
 						/>
 					</div>
 					<div className="carousel-item" data-bs-interval="4000">
 						<img
-							src="https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823__340.jpg"
-							className="d-block w-100"
-							alt="..."
-						/>
-					</div>
-					<div className="carousel-item" data-bs-interval="4000">
-						<img
-							src="https://newsface.co/wp-content/uploads/2018/09/collection.jpg"
+							src="images/img-3.jpg"
 							className="d-block w-100"
 							alt="..."
 						/>
