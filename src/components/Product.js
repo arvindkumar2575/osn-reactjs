@@ -11,7 +11,8 @@ function Product() {
 				{/* <p className="section-head-desc">Here's our services list</p> */}
 				<div className="product-cards">
 					<ProductCard title="Product Name goes here" />
-					<ProductCard title="Product Name goes here Product Name goes hereProduct Name goes hereProduct Name goes here"/>
+					<ProductCard title="Product Name goes here" />
+					<ProductCard title="Product Name goes here Name goes here"/>
 				</div>
 			</div>
 		</>

@@ -32,14 +32,14 @@ function HeadCarousel() {
 					></button>
 				</div>
 				<div className="carousel-inner">
-					<div className="carousel-item active" data-bs-interval="4000">
+					{/* <div className="carousel-item active" data-bs-interval="4000">
 						<img
 							src="images/img-1.jpg"
 							className="d-block w-100"
 							alt="img-1"
 						/>
-					</div>
-					<div className="carousel-item" data-bs-interval="4000">
+					</div> */}
+					<div className="carousel-item active" data-bs-interval="4000">
 						<img
 							src="images/img-2.jpg"
 							className="d-block w-100"
